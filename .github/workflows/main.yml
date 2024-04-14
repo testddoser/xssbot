@@ -27,8 +27,7 @@ jobs:
         pip install requests
         pip install telebot
         pip install pytelegrambotapi
-        ⁡⁡pip install bs4
-        ⁡⁡pip install colorama
+        pip install bs4
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Запуск бота
       run: |
